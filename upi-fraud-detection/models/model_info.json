@@ -1,0 +1,17 @@
+{
+  "name": "UPI Fraud Detection Rule Engine",
+  "version": "1.0",
+  "rules_count": 5,
+  "thresholds": {
+    "HIGH": 70,
+    "MEDIUM": 40,
+    "LOW": 0
+  },
+  "rule_descriptions": [
+    "Amount > \u20b950,000",
+    "Amount > \u20b910,000",
+    "Transaction during late night (12AM-6AM)",
+    "Transaction during suspicious hours (10PM-12AM)",
+    "Exceptionally high amount"
+  ]
+}
